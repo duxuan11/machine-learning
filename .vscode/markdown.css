@@ -1,0 +1,26 @@
+.jp-MarkdownOutput h1.jp-Mirror {
+    font-size: 20px !important;  /* 其他属性同理 */
+}
+
+
+.jp-MarkdownOutput h1.jp-Mirror {
+    display: table;
+    margin: 30px auto 20px auto;
+    padding: 10px;
+    background-image: linear-gradient(to left, rgb(253, 213, 231), rgb(194, 226, 249));
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #ccc;
+    font-size: 20px !important;
+    text-align: center;
+}
+
+body {
+  font-family: 'Segoe UI', '微软雅黑', sans-serif; /* 自定义字体 */
+  background-color: #333399; /* 背景色 */
+  max-width: 800px; /* 内容宽度 */
+  margin: auto; /* 居中显示 */
+}
+h1 {
+  color: #333399; /* 标题颜色 */
+}

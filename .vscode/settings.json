@@ -1,0 +1,11 @@
+{ 
+  "markdown.styles": ["E:/learning/markdown.css"], // 绝对路径
+  "markdown-preview-enhanced.previewTheme": "github-light.css",
+  "markdown-preview-enhanced.mermaidTheme": "dark",
+  "jupyter.markdownPlugins": { // 显式启用插件
+    "markdown-table-formatter": true,
+    "vscode-markdown-mermaid": true
+  },
+  "markdown-preview-enhanced.printBackground": true, // PDF导出背景
+  "security.workspace.trust.untrustedFiles": "open" // 信任文件
+}
